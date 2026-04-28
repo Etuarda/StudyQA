@@ -2,7 +2,7 @@
 
 > Tema: tipos de teste, testes funcionais e testes caixa preta.
 
-## Pergunta 6 - App Coliseu: cenários funcionais da tela de cadastro
+## - App Coliseu: cenários funcionais da tela de cadastro
 
 ### Contexto
 
@@ -163,15 +163,11 @@ Foram identificados pontos que podem gerar bugs ou dúvidas durante o desenvolvi
 | O campo Celular fala em DDD válido, mas não informa quais DDDs devem ser aceitos | Pode haver divergência na validação |
 | Não há definição de mensagens de erro | Usuário pode não entender por que o cadastro não avança |
 
-### Resposta da atividade
 
-Você realizou essa atividade?
-
-**SIM**
 
 ---
 
-# Pergunta 7 - Sistema de inscrições de handebol
+#  - Sistema de inscrições de handebol
 
 ## Contexto
 
@@ -320,8 +316,3 @@ Isso significa que a idade de 21 anos muda de categoria conforme o gênero:
 
 Esse é um caso de borda importante e deve ser testado com atenção.
 
-### Resposta da atividade
-
-Você realizou essa atividade?
-
-**SIM**

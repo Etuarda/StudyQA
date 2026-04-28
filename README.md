@@ -1,17 +1,18 @@
 # QAStudy
 
-Repositório de estudos em QA com foco em teoria, prática guiada e pequenos projetos.
+Repositório de estudos em QA com foco em fundamentos de teste de software, anotações em Markdown, glossário e exercícios práticos.
 
 ## Objetivo
 
-Organizar materiais de estudo em Markdown, com estrutura preparada para futura publicação como documentação ou site.
+Organizar o aprendizado de QA de forma progressiva, mantendo notas teóricas, resumos, termos importantes e resoluções de desafios em um formato simples de consultar e fácil de publicar futuramente como documentação ou site.
 
-## Prioridades do acervo
+## Conteúdo atual
 
-- Teoria e conceitos
-- Exercícios e prática
-- Projetos pequenos
-- Resumos por tecnologia
+- **Módulo 1**: fundamentos de teste, qualidade de software, erro/defeito/falha, causa raiz, Regra de 10 de Myers e 7 princípios do teste.
+- **Módulo 2**: níveis de teste, incluindo componente, integração, sistema, aceitação, confirmação, regressão e manutenção.
+- **Módulo 3**: tipos de teste e aplicações, incluindo teste funcional, não funcional, caixa preta e caixa branca.
+- **Glossário de QA**: termos essenciais para revisão rápida.
+- **Exercícios práticos**: resolução dos desafios do Módulo 3.
 
 ## Estrutura
 
@@ -20,36 +21,36 @@ Organizar materiais de estudo em Markdown, com estrutura preparada para futura p
 |-- README.md
 |-- docs/
 |   |-- conceitos/
-|   |-- tecnologias/
-|   |-- resumos/
-|   `-- glossario/
+|   |   |-- 7-principios-do-teste.md
+|   |   |-- caracteristicas-de-qualidade-do-software.md
+|   |   |-- fundamentos-de-teste-conceitos.md
+|   |   |-- niveis-de-teste.md
+|   |   |-- testes-estaticos-dinamicos-erro-defeito-falha.md
+|   |   `-- tipos-de-teste.md
+|   |-- glossario/
+|   |   `-- glossario-qa.md
+|   `-- resumos/
+|       `-- fundamentos-de-qa.md
 |-- pratica/
-|   |-- exercicios/
-|   |-- desafios/
-|   `-- laboratorios/
-|-- projetos/
-|   |-- pequenos/
-|   `-- estudos-de-caso/
-|-- diario/
-|   `-- 2026/
-|-- templates/
-|   |-- nota-teorica.md
-|   |-- exercicio-pratico.md
-|   `-- projeto.md
-`-- assets/
+|   `-- exercicios/
+|       `-- resolucao-desafios-modulo-3.md
+`-- templates/
+    |-- exercicio-pratico.md
+    |-- nota-teorica.md
+    `-- projeto.md
 ```
 
 ## Como usar
 
-- Registre conceitos e fundamentos em `docs/conceitos/`.
-- Centralize notas por ferramenta ou stack em `docs/tecnologias/`.
-- Crie resumos curtos e revisões em `docs/resumos/`.
-- Mantenha definições rápidas em `docs/glossario/`.
-- Pratique em `pratica/` com exercícios, desafios e laboratórios.
-- Documente miniprojetos e estudos aplicados em `projetos/`.
-- Use `diario/2026/` para acompanhar progresso, descobertas e próximos passos.
+- Consulte `docs/conceitos/` para estudar os conteúdos teóricos por tema.
+- Use `docs/resumos/fundamentos-de-qa.md` como revisão geral dos módulos já cobertos.
+- Use `docs/glossario/glossario-qa.md` para revisar termos de QA rapidamente.
+- Registre práticas e desafios em `pratica/exercicios/`.
 - Comece novos arquivos a partir dos modelos em `templates/`.
 
-## Publicação futura
+## Próximos passos possíveis
 
-Como o conteúdo será mantido em Markdown, esta base fica pronta para evoluir depois para ferramentas como MkDocs, Docusaurus ou outro gerador de site estático.
+- Adicionar novos módulos conforme o estudo avançar.
+- Criar mais exercícios práticos com cenários, casos de teste e evidências.
+- Expandir o glossário com termos de automação, API, testes web e ferramentas.
+- Preparar publicação futura com MkDocs, Docusaurus ou outro gerador de site estático.
